@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "c:/libs/glog/include"
+            ],
+            "defines": [
+                "GLOG_USE_GLOG_EXPORT" // Need for IntelliSense to properly add glog/logging.h
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "c:/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
